@@ -34,7 +34,7 @@ export default function index() {
             fontFamily: "Montserrat, sans-serif"
           }}
         >
-          <h2>MOHAN</h2>
+          <h2>ISAAC</h2>
         </Link>
       }
     />
