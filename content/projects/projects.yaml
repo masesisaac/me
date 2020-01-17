@@ -1,0 +1,10 @@
+- title: CryptoSavvy
+  description: Automated crypto trading platform backed by a bot that monitors and places buy/sell orders for crypto based on price changes.
+  cover: cryptosavvy.png
+  demo: http://cryptosavvy.herokuapp.com/
+  repo: ''
+  date: Aug 9, 2017
+  tags:
+    - React
+    - Nodejs
+    - Socket.io
