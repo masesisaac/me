@@ -18,7 +18,7 @@ const WrappedImg = props => <Wrapper>{props.children}</Wrapper>;
 const Image = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "mohan.png" }) {
+      placeholderImage: file(relativePath: { eq: "undraw_feeling_proud_qne1.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid

@@ -1,11 +1,14 @@
 var plugins = [{
-      plugin: require('/Users/mases/me/Portfolio/gatsby_starter_portfolio/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/masesisaac/me/Portfolio/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/mases/me/Portfolio/gatsby_starter_portfolio/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('/Users/masesisaac/me/Portfolio/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      options: {"plugins":[],"trackingId":"UA-156458550-1","head":true},
+    },{
+      plugin: require('/Users/masesisaac/me/Portfolio/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/mases/me/Portfolio/gatsby_starter_portfolio/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/Users/masesisaac/me/Portfolio/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"masesisaac-personal-portfolio","short_name":"Isaac's portfolio","start_url":"/","background_color":"#616CAA","theme_color":"#616CAA","display":"minimal-ui","icon":"src/images/code_logo.png"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

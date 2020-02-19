@@ -1,7 +1,7 @@
 import React from "react";
 import PageGrid from "../components/Responsive/PageGrid";
 import Layout from "../components/Layout";
-// import PersonImage from "../images/personImage";
+import PersonImage from "../images/personImage";
 import SocialIcons from "../components/SEO/SocialIcons";
 import Heading from "../components/Typography/Heading";
 import Description from "../components/Typography/Description";
@@ -24,7 +24,7 @@ export default function index({ data }) {
             <SocialIcons />
           </div>
           <div className="grid-item">
-            {/* <PersonImage /> */}
+            <PersonImage />
           </div>
         </div>
       </PageGrid>
