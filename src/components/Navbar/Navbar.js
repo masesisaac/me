@@ -22,6 +22,12 @@ export default function index() {
             <li>
               <NavLink to="/projects">See my work</NavLink>
             </li>
+            <li>
+              <NavLink to="/uses">Uses</NavLink>
+            </li>
+            <li>
+              <a target="_blank" href="https://drive.google.com/file/d/12q04qj68NWykFsQ0N2BTXROuKK65HZc4/view">Resume</a>
+            </li>
           </ul>
         </Menu>
       }

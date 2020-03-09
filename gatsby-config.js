@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Isaac`,
-    description: `A personal portfolio site built with GatsbyJS`,
+    title: `Isaac Maseruka`,
+    description: `A personal portfolio site`,
     author: `masesisaac`,
     socialLinks: [
       {
@@ -19,6 +19,10 @@ module.exports = {
       {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/masesisaac"
+      },
+      {
+        name: "Medium",
+        url: "https://medium.com/@masesisaac"
       }
     ]
   },

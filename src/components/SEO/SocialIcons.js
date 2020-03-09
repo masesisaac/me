@@ -5,7 +5,8 @@ import {
   FaEnvelope,
   FaTwitter,
   FaGithub,
-  FaLinkedin
+  FaLinkedin,
+  FaMedium
 } from "react-icons/fa";
 
 const IconGroup = styled.div`
@@ -61,6 +62,8 @@ const Icon = ({ name }) => {
       return <FaTwitter />;
     case "LinkedIn":
       return <FaLinkedin />;
+    case "Medium":
+      return <FaMedium />
     default:
       break;
   }

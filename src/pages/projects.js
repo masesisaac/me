@@ -50,8 +50,8 @@ export default function projects({ data }) {
                     <Item>{node.tags.join(', ')}</Item>
                   </p>
                 </Description>
-                {node.demo ? <Button href={node.demo}>Demo</Button> : null}
-                {node.repo ? <Button href={node.repo}>Source</Button> : null}
+                {node.demo ? <Button target="_blank" href={node.demo}>Demo</Button> : null}
+                {node.repo ? <Button target="_blank" href={node.repo}>Source</Button> : null}
               </div>
             ))}
         </div>
